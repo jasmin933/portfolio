@@ -1,6 +1,6 @@
 import React from 'react'
 import stackOverflow from '../assets/portfolio/stackoverflow.jpg'
-import toDoapp from '../assets/portfolio/todoapp.jpg'
+import toDoapp from '../assets/portfolio/todoapp.png'
 import accountmng from '../assets/portfolio/accountmng.png'
 import ecom from '../assets/portfolio/ecom.png'
 import portfolio from '../assets/portfolio/portfolio.png'
@@ -14,9 +14,10 @@ const Portfolio = () => {
     const portfolios =[
                        {
                         id:1,
-                        src:stackOverflow,
-                        href:'https://github.com/jasmin933/stackoverflow-clone',
-                        demo: stackovrflw
+                        src:toDoapp,
+                        href:'https://github.com/jasmin933/my-todoapp',
+                        demo: app
+
                        },
                        {
                         id:2,
@@ -32,16 +33,17 @@ const Portfolio = () => {
                         demo: ecomv
                        },  
                         {
-                        id:4,
-                        src:accountmng,
-                        href:'https://github.com/jasmin933/accountmanagmentsystem',
-                        demo: account
+                        id:4, src:stackOverflow,
+                        href:'https://github.com/jasmin933/stackoverflow-clone',
+                        demo: stackovrflw
+
+                       
                        },
                        {
                         id:5,
-                        src:toDoapp,
-                        href:'https://github.com/jasmin933/my-todoapp',
-                        demo: app
+                        src:accountmng,
+                        href:'https://github.com/jasmin933/accountmanagmentsystem',
+                        demo: account
                        },
     ]
 
